@@ -1,0 +1,356 @@
+/* AboutMe component */
+@media (max-width: 768px) {
+  .about-me-container {
+    color: white;
+  }
+  
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-me-text {
+    flex: 1;
+    margin-top: 20px;
+    font-size: 10px;
+    margin-left: 7px;
+  }
+  
+  .about-img-container {
+    flex-shrink: 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-img {
+    max-width: 100%;
+  }
+  
+  .about-me-header-container {
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+  
+  .about-me-header {
+    font-size: 40px;
+    color: rgb(41, 221, 41);
+    margin: 0;
+  }
+  
+  .about-me-description {
+    margin-bottom: 10px;
+  }
+  
+  .about-button-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .about-resume-button {
+    font-size: 16px;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-contact-button {
+    border-radius: 12px;
+    border: 2px solid #0cff20;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(11, 42, 68);
+    color: white;
+    padding: 10px 20px;
+  }
+}
+
+
+
+
+
+
+/* Mobile view header */
+@media (max-width: 768px) {
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 9999;
+    padding: 0 10px; /* Adjust the padding as needed for mobile */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    width: 100%;
+  }
+
+  .App-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    opacity: 50%;
+    overflow-x: auto; /* Enable horizontal scrolling for overflow */
+    width: 100%;
+  }
+
+  .header-button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 16px; /* Adjust the font size as needed for mobile */
+    padding: 0 4px; /* Adjust the padding as needed for mobile */
+    margin: 0 5px; /* Adjust the margin as needed for mobile */
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-button:hover {
+    color: rgb(88, 88, 88);
+  }
+  
+}
+
+
+
+
+
+
+/* MySkills component */
+@media (max-width: 768px) {
+  .skills-img {
+    width: 40%;
+    margin-top: 300px;
+  }
+
+
+
+
+
+  .skills-container {
+    color: white;
+  }
+
+  .skills-header {
+    font-size: 40px; /* Adjust the font size as needed for mobile */
+    color: rgb(41, 221, 41);
+  }
+
+  
+  .skills-container {
+    width: 20%; /* Adjust the width as needed for mobile */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-text-container {
+    position: absolute;
+    width: 90%; /* Adjust the width as needed for mobile */
+    max-width: 400px; /* Adjust the max-width as needed for mobile */
+    margin-bottom: 20px;
+    left: -300px; /* Adjust this value as needed */
+    transform: translateY(-50%);
+  }
+  
+  .skills-text {
+    
+    font-size: 15px; /* Adjust the font size as needed for mobile */
+    color: white;
+    margin-bottom: 20px; /* Adjust the margin as needed for mobile */
+  }
+
+  .ul-skills {
+    width: 400px;
+    width: 90%; /* Adjust the width as needed for mobile */
+    max-width: 400px; /* Adjust the max-width as needed for mobile */
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+}
+
+
+
+
+
+
+/* Projects component */
+@media (max-width: 768px) {
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust the height as needed for mobile */
+    position: relative;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px; /* Adjust the margin-top as needed for mobile */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .project-header {
+    position: absolute;
+    left: 30px; /* Adjust the positioning as needed for mobile */
+    color: rgb(41, 221, 41);
+    font-size: 40px; /* Adjust the font size as needed for mobile */
+  }
+  
+  .content img {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed for mobile */
+    height: auto;
+  }
+  
+  .tools {
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgb(13, 49, 78);
+    padding: 0px;
+  }
+  
+  h1 {
+    color: rgb(218, 218, 218);
+  }
+  
+  h2 {
+    color: rgb(189, 188, 188);
+    margin-top: 10px;
+  }
+  
+  .ToDo-live,
+  .Day-live,
+  .Rock-live,
+  .Razer-live,
+  .Razer-code,
+  .Rock-code,
+  .Day-code,
+  .ToDo-code {
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px; /* Adjust the margin as needed for mobile */
+  }
+}
+
+
+
+
+
+
+/* GetinTouch component */
+@media (max-width: 768px) {
+  .contact-container {
+    margin-top: 50px;
+  }
+  
+  .getintouch-header {
+    margin-left: 60px;
+    font-size: 50px;
+    color: rgb(41, 221, 41);
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .getintouch-container {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  .getintouch-container h2 {
+    padding-bottom: 50px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 100px;
+  }
+  
+  .name-email-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .name,
+  .email,
+  .message {
+    height: 50px;
+  }
+  
+  .message {
+    margin-top: 50px;
+  }
+  
+  .email-input {
+    margin-left: 0;
+  }
+  
+  .name-input {
+    margin-right: 0;
+  }
+  
+  .name-input,
+  .email-input,
+  .message-input {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .send-button {
+    margin-top: 10px;
+    border: 2px solid #0cff20;
+    border-radius: 12px;
+    font-size: 20px;
+    height: 50px;
+    width: 90px;
+    background-image: linear-gradient(to bottom right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    cursor: pointer;
+  }
+  
+  textarea {
+    resize: none;
+    border: 2px solid #0cff20;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: rgb(11, 42, 68);
+  }
+}

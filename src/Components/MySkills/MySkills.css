@@ -1,0 +1,77 @@
+.skills-header {
+    font-size: 260%;
+    color: rgb(41, 221, 41);
+    position: absolute;
+    left: 19%;
+  }
+  
+  .skills-container {
+    position: relative;
+    top: 10vh;
+    width: 25vw; 
+    height: 90vh;
+  }
+  
+  .skills-text-container {
+    position: absolute;
+    top: 40%;
+    left: 40%; /* Adjust the left value to position the text container */
+    transform: translateX(50%);
+    text-align: center;
+    width: 50vw;
+    max-width: 100vw;
+  }
+  
+  .skills-text {
+    font-size: 120%;
+    color: white;
+    margin-bottom: 5%;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+}
+
+.skills-img {
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 10%; /* Adjust the top value to align the image with the text */
+  left: -40%; /* Adjust the left value to position the image */
+  transform: translateX(-50%);
+
+}
+
+@media (max-width: 768px) {
+  .skills-text-container {
+    top: 35%;
+    left: -100%;
+    transform: translate(50%, -50%);
+    width: 80vw;
+  }
+  
+  .skills-text {
+    font-size: 100%;
+    margin-bottom: 2%;
+  }
+  .skills-img {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    bottom: -120%; /* Adjust the top value to align the image with the text */
+    left: -25%; /* Adjust the left value to position the image */
+    transform: translateX(50%);
+  
+  }
+
+  .skills-header {
+    font-size: 260%;
+    color: rgb(41, 221, 41);
+    position: absolute;
+    left: 19%;
+    width: 203%;
+  }
+}

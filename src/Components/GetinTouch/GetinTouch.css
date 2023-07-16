@@ -1,0 +1,121 @@
+.contact-container {
+  margin-top: 5%;
+}
+
+.getintouch-header {
+  margin-left: 5%;
+  font-size: 260%;
+  color: rgb(41, 221, 41);
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.getintouch-container {
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+
+.getintouch-container h2 {
+  padding-bottom: 5%;
+}
+
+.input-container {
+  display: flex;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  flex-direction: column; 
+  margin-top: 5%;
+
+}
+
+.name-email-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.name,
+.email,
+.message {
+  height: 5vh; 
+}
+
+.message {
+  margin-top: 8%;
+
+}
+
+
+.name-input,
+.email-input,
+.message-input {
+  height: 100%;
+  width: 100%;
+}
+
+.send-button {
+  margin-top: 2%;
+  border: 2px solid #0cff20;
+  border-radius: 12px;
+  font-size: 20px;
+  height: 5vh;
+  width: 5vw;
+  background-image: linear-gradient(to bottom right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  cursor: pointer;
+
+}
+
+textarea {
+  resize: none;
+  border: 2px solid #0cff20;
+  border-radius: 12px;
+  font-size: 140%;
+  background-color: rgb(11, 42, 68);
+}
+
+
+@media (max-width: 768px) {
+  .getintouch-container {
+    width: 50%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+
+  .input-container {
+    display: flex;
+    margin-right: -1%;
+    margin-bottom: 50%;
+    flex-direction: column; 
+    margin-top: 5%;
+  
+  }
+
+  .message {
+    margin-top: 3%;
+  
+  }
+
+  textarea {
+    width: 90vw;
+  }
+
+  
+.send-button {
+  margin-top: 2%;
+  border: 2px solid #0cff20;
+  border-radius: 12px;
+  font-size: 20px;
+  height: 5vh;
+  width: 20vw;
+  background-image: linear-gradient(to bottom right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  cursor: pointer;
+
+}
+  
+
+}
