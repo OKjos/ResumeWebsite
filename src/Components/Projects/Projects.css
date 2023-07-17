@@ -68,6 +68,18 @@ h2 {
     margin-top: 10%;
 }
 
+.ToDo-live:hover, .Day-live:hover, .Rock-live:hover, .Razer-live:hover {
+    font-size: 140%;
+    background-image: linear-gradient(to bottom right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    border-radius: 12px;
+    border: 2px solid #0cff20;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px; 
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
 .Razer-code, .Rock-code, .Day-code, .ToDo-code {
     border-radius: 12px;
     border: 2px solid #0cff20;
@@ -79,20 +91,32 @@ h2 {
     margin-left: 5%;
 }
 
+.Razer-code:hover, .Rock-code:hover, .Day-code:hover, .ToDo-code:hover {
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  border: 2px solid #0cff20;
+  cursor: pointer;
+  font-size: 140%;
+  background-color: rgb(17, 61, 97);
+  color: white;
+  padding: 10px 20px; 
+  margin-left: 5%;
+}
+
 
 @media (max-width: 768px) {
 
 
   .projects-container {
     height: auto;
-    padding-bottom: 20px; /* Add some bottom padding to prevent overlap with the next section */
+    padding-bottom: 20px;
   }
 
   .project-grid {
     display: grid;
     grid-template-rows: repeat(2, minmax(0, 1fr));
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 0%; /* Adjust the gap value as per your preference */
+    gap: 0%; 
     margin-top: 20%;
   }
 
