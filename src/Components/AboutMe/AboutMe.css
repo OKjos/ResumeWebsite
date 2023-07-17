@@ -40,7 +40,7 @@
   
   .about-button-container {
     display: flex;
-    justify-content: space-between; /* Add space between the buttons */
+    justify-content: space-between;
     margin-bottom: 10px;  
     margin-top: 40px;
 }
