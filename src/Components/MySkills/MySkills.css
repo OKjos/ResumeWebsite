@@ -15,7 +15,7 @@
   .skills-text-container {
     position: absolute;
     top: 40%;
-    left: 40%; /* Adjust the left value to position the text container */
+    left: 40%; 
     transform: translateX(50%);
     text-align: center;
     width: 50vw;
@@ -39,8 +39,8 @@ ul {
   width: 50vw;
   height: 50vh;
   position: absolute;
-  bottom: 10%; /* Adjust the top value to align the image with the text */
-  left: -40%; /* Adjust the left value to position the image */
+  bottom: 10%; 
+  left: -40%; 
   transform: translateX(-50%);
 
 }
@@ -61,8 +61,8 @@ ul {
     width: 50vw;
     height: 50vh;
     position: absolute;
-    bottom: -120%; /* Adjust the top value to align the image with the text */
-    left: -25%; /* Adjust the left value to position the image */
+    bottom: -120%; 
+    left: -25%; 
     transform: translateX(50%);
   
   }
