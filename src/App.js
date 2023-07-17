@@ -1,6 +1,5 @@
 import './Components/Header/Header.css';
 import './App.css';
-import './Mobile.css';
 import React, { useRef } from 'react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
