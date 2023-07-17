@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Resume.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua White</title>
 </head>
-<body class="body-container">
-    <div class="button-container">
-        <button class="back-button" onclick="handleBackButton()">
-            Back
-        </button>
-        <button class="download-button" onclick="handleResumeButtonClick()">
-            Download
-        </button>
-    </div>
-    <div class="container">
-        <a href="CodingResume.pdf" download>
-            <img class="ResumeImg" src="ResumeImg.png">
-        </a>
-    </div>
-    <script src="Resume.js"></script>
+<body>
+  <div id="root"></div>
+
+  <!-- Include React and ReactDOM scripts -->
+  <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+
+  <!-- Include your bundle.js file -->
+  <script src="bundle.js"></script>
 </body>
 </html>
