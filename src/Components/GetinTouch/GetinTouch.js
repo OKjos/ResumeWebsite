@@ -55,9 +55,11 @@ function GetinTouch() {
           <h2>Hillman, Michigan, USA</h2>
           <h2>joswhite2001@gmail.com</h2>
           <h2>989-255-7983</h2>
+          <h1>Email option coming soon</h1>
         </div>
         <div className="input-container">
           <div className="name-email-container">
+          
             <div className="name">
               <textarea placeholder='Enter your name' type="text" id="name" name="name" value={name} onChange={handleNameChange} required /><br /><br />
             </div>
